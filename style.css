@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body h1{
+    margin-top: 70px;
+    text-align:center;
+}
+/* body .buttons{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
+
+ @keyframes fadein {
+    /* 0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    } */
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
+  h1 , .buttons{  
+    /* animation: 1.5s ease-out 0s 1 slideInFromLeft;    
+    padding: 30px; */
+    animation: fadein 2.4s;
+  }
+  
+  .buttons{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-42%);
+      text-align: center;
+  }
+  .btn{
+      outline: none;
+      border: none;
+      margin: 20px;
+      padding: 24px;
+      width: 220px;
+      text-transform: uppercase;
+      border-radius: 6px;
+      cursor:pointer;
+      font-weight: 500;
+      background-size: 200%;
+  }
+  .btn1{
+      background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+  }
+  .btn2{
+    background-image: linear-gradient(to left,#12CBC4,#0652DD,#12CBC4);
+  }
+  .btn3{
+    background-image: linear-gradient(to left,#A3CB38,#009432,#A3CB38);
+  }
+  .btn4{
+    background-image: linear-gradient(to left,#D980FA,#5758BB,#D980FA);
+  }
+  .btn5{
+    background-image: linear-gradient(to left,#ED4C67,#6F1E51,#ED4C67);
+  }
+  .btn6{
+    background-image: linear-gradient(to left,#FDA7DF,#B53471,#FDA7DF);
+  }
